@@ -16,6 +16,7 @@ body {
 h1, h2 {
     font-family: Poppins, sans-serif;
     color: darkslategrey;
+    letter-spacing: 4px;
 }
 
 #logo {
@@ -30,8 +31,28 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
-#menu li {
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu ul {
     float: right;
+}
+
+#menu li {
+    float: left;
     list-style-type: none;
     margin-right: 30px;
+}
+
+#menu a {
+    text-decoration:none;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #e46e48;
+}
+
+.active {
+    border-bottom: 1px solid #e46e48;
 }
